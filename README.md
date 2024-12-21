@@ -1,12 +1,12 @@
-# CryptographicArchiveProcessor
+# CryptographicArchiver
 
 ### Elegant encryption for your Swift data archives
 
 A lightweight, easy-to-use Swift package that combines the power of Apple's CryptoKit and AppleArchive frameworks to provide seamless encryption and compression of data objects to a encrypted `.aea` file.
 
-## Why CryptographicArchiveProcessor?
+## Why CryptographicArchiver?
 
-Have you ever needed to securely store large sensitive data that surpasses the keychain's capacity, while still leveraging the convenience of Apple's security framework? You can achieve this by storing your encryption key in the Keychain and using the CryptographicArchiveProcessor for your data, adding multiple layers of security. With CryptographicArchiveProcessor, it's as simple as:
+Have you ever needed to securely store large sensitive data that surpasses the keychain's capacity, while still leveraging the convenience of Apple's security framework? You can achieve this by storing your encryption key in the Keychain and using the CryptographicArchiver for your data, adding multiple layers of security. With CryptographicArchiveProcessor, it's as simple as:
 
 ```swift
 // Encrypt your data
@@ -31,7 +31,7 @@ Add this package to your project through Swift Package Manager:
 
 ```swift
 dependencies: [
-.package(url: "https://github.com/yourusername/CryptographicArchiveProcessor.git", from: "1.0.0")
+.package(url: "https://github.com/yourusername/CryptographicArchiver.git", from: "1.0.0")
 ]
 ```
 
