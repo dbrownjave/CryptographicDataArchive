@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CryptographicArchiver",
+    name: "CryptographicDataArchive",
     platforms: [
         .macOS(.v12),
         .iOS(.v15),
@@ -14,17 +14,17 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "CryptographicArchiver",
-            targets: ["CryptographicArchiver"]),
+            name: "CryptographicDataArchive",
+            targets: ["CryptographicDataArchive"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "CryptographicArchiver"),
+            name: "CryptographicDataArchive"),
         .testTarget(
-            name: "CryptographicArchiverTests",
-            dependencies: ["CryptographicArchiver"]
+            name: "CryptographicDataArchiveTests",
+            dependencies: ["CryptographicDataArchive"]
         ),
     ]
 )

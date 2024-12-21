@@ -4,7 +4,7 @@ import Foundation
 import System
 import Testing
 
-@testable import CryptographicArchiver
+@testable import CryptographicDataArchive
 
 // Test Model
 struct TestData: CryptographicArchivable {
