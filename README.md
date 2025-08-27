@@ -1,4 +1,6 @@
 # CryptographicArchiver
+<img width="180" height="180" alt="image" src="https://github.com/user-attachments/assets/75c9cb86-4d91-46ea-9fa9-b354a1db4d99" />
+
 
 ### Elegant encryption for your Swift data archives
 
